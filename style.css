@@ -49,31 +49,31 @@ nav a:hover {
 /* IMAGENS POR PÁGINA */
 
 .banner-home {
-  background-image: url("../imagens/home.jpg");
+  background-image: url("home.jpg");
 }
 
 .banner-conhecimento {
-  background-image: url("../imagens/conhecimento2.jpg");
+  background-image: url("conhecimento2.jpg");
 }
 
 .banner-terapias {
-  background-image: url("../imagens/pupito.jpg");
+  background-image: url("pupito.jpg");
 }
 
 .banner-lives {
-  background-image: url("../imagens/pupito.jpg");
+  background-image: url("pupito.jpg");
 }
 
 .banner-cirurgias {
-  background-image: url("../imagens/cura.jpg");
+  background-image: url("cura.jpg");
 }
 
 .banner-contato {
-  background-image: url("../imagens/conhecimento.jpg");
+  background-image: url("conhecimento.jpg");
 }
 
 .banner-sobre {
-  background-image: url("../imagens/logo.jpg");
+  background-image: url("logo.jpg");
 }
 
 /* CONTEÚDO */
@@ -176,16 +176,16 @@ footer {
   background-color: #1f2f46;
 }
 .banner-logo {
-  background-image: url("../imagens/logo.jpg");
+  background-image: url("logo.jpg");
 }
 .banner-cirurgia {
-  background-image: url("../imagens/cura.jpg");
+  background-image: url("cura.jpg");
 }
 .banner-misto {
-  background-image: url("../imagens/misto.jpg");
+  background-image: url("misto.jpg");
 }
 .banner-sobrenos {
-  background-image: url("../imagens/sobrenos2.jpg");
+  background-image: url("sobrenos2.jpg");
 }
 .boas-vindas {
   padding: 40px;
