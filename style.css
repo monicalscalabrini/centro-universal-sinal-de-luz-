@@ -1,4 +1,3 @@
-/* RESET */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -34,41 +33,12 @@ nav a:hover {
   color: #ffd700;
 }
 
-/* ✅ BANNER PADRÃO */
-.banner {
+/* BANNER */
+.banner img {
   width: 100%;
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-}
-
-/* ✅ BANNERS CORRIGIDOS (CAMINHO CERTO) */
-.banner-home {
-  background-image: url("../home.jpg");
-}
-
-.banner-terapias {
-  background-image: url("../capalivro6.jpg");
-}
-
-.banner-lives {
-  background-image: url("../pupito.jpg");
-}
-
-.banner-cirurgias {
-  background-image: url("../cura.jpg");
-}
-
-.banner-contato {
-  background-image: url("../conhecimento.jpg");
-}
-
-.banner-sobre {
-  background-image: url("../logo.jpg");
-}
-
-.banner-conhecimento {
-  background-image: url("../conhecimento2.jpg");
+  height: 350px;
+  object-fit: cover;
+  display: block;
 }
 
 /* CONTEÚDO */
@@ -79,7 +49,7 @@ main {
 }
 
 /* CARDS */
-.container-cards {
+.cards {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -94,24 +64,16 @@ main {
   text-align: center;
 }
 
-/* VÍDEOS */
-.container-videos {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+/* SEÇÕES */
+.cta, .frase {
+  text-align: center;
+  margin: 30px 0;
 }
 
-.video-card {
-  background: #1e293b;
-  padding: 15px;
-  border-radius: 10px;
-  width: 300px;
-}
-
-/* RODAPÉ */
+/* FOOTER */
 footer {
   text-align: center;
   background: #1e293b;
   padding: 15px;
 }
+
