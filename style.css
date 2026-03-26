@@ -534,9 +534,9 @@ section:first-of-type {
     width: 100%;
     height: 250px;
     object-fit: cover;
-}.banner img {
+}.banner img {  /* heigth desta imagem alterado para teste/
     width: 100%;
-    height: 400px;
+    height: 250px;
     object-fit: cover;
     object-position: center top;
 }
