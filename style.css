@@ -38,17 +38,9 @@ nav a:hover {
 
 /* ✅ BANNER (ÚNICO E CORRETO) */
 
-.banner {
-    width: 100%;
-    height: 500px; /* ajusta aqui */
-    overflow: hidden;
-}
 
-.banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
+
 }
 
 /* IMAGENS POR PÁGINA */
@@ -535,16 +527,7 @@ section:first-of-type {
     padding-left: 0;
     margin-left: 0;
 }
-.banner img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}.banner img {  
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    object-position: center top;
-}
+
 .intro {
     margin-top: 60px; /* pode ajustar: 30, 50, 60 */
 }
@@ -558,8 +541,7 @@ nav {
 }
 }nav a:hover {
     color: #ffd700; /* dourado */
-}.banner img {
-    margin-bottom: 200px;
+
 }
 .intro {
     background-color: #0b1a2f;
@@ -568,19 +550,13 @@ nav {
 
     padding: 40px 20px; /* espaço interno */
     margin-top: 0; /* importante */
-}.banner img {
-    width: 100%;
-    height: 400px; /* testa 300, 350, 450 */
-    object-fit: cover;
+
 }.banner {
     height: 400px;
     overflow: hidden;
 }
 
-.banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
 
 }.banner-logo {
     background-image: url("../imagens/capalivro6.jpg");
@@ -645,4 +621,15 @@ main {
     text-align: center;
     margin: 40px auto;
     max-width: 1200px;
+}
+.banner {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
