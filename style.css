@@ -534,9 +534,9 @@ section:first-of-type {
     width: 100%;
     height: 250px;
     object-fit: cover;
-}.banner img {  /* heigth desta imagem alterado para teste/
+}.banner img {  /* heigth desta imagem alterado estava 400 e coloquei 250 para teste/ primeiro teste melhorou - segundo teste  heigth 250 para 100: 
     width: 100%;
-    height: 250px;
+    height: 100px;
     object-fit: cover;
     object-position: center top;
 }
